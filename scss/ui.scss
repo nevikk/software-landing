@@ -1,0 +1,36 @@
+._title {
+	font-weight: 900;
+	@include adaptiv-value('font-size', 36, 24, 1);
+	line-height: 140%;
+	text-align: center;
+	text-transform: capitalize;
+	color: $mainColor;
+}
+
+._footer-title {
+	font-weight: 900;
+	line-height: 140%;
+	color: $mainColor;
+}
+
+._blue {
+	color: $blueColor;
+}
+.slider-arrows {
+	display: grid;
+	grid-template-columns: repeat(2, 17px);
+	column-gap: 16px;
+}
+.slider-arrow {
+	color: $blueColor;
+	font-size: 24px;
+	// .slider-arrow_prev
+
+	&_prev {
+	}
+
+	// .slider-arrow_next
+
+	&_next {
+	}
+}
