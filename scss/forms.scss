@@ -1,0 +1,32 @@
+.btn{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding: 0px 32px;
+	text-align: center;
+	transition: all 0.4s ease 0s;
+	min-height: 40px;
+	color: $blueColor;
+	font-weight: 700;
+	border: 2px solid $blueColor;
+	border-radius: 6px;
+	@media (any-hover: hover) {
+		&:hover {
+			border: 2px solid #0c7da1;
+			color: #0c7da1;
+		}
+	}
+
+	&_blue {
+		background-color: $blueColor;
+		color: #fff;
+		@media (any-hover: hover) {
+			&:hover {
+				border: 2px solid #0c7da1;
+				background-color: #0c7da1;
+				color: #fff;
+			}
+		}
+	}
+}
